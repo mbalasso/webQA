@@ -1,0 +1,21 @@
+<testcases>
+  <case>
+    <url>http://www.biomedtown.org/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/login_form</url>
+    <method>POST</method>
+	 <body><![CDATA[form.submitted=1&js_enabled=1&cookies_enabled=1&login_name=testi&pwd_empty=0&came_from=http%3A%2F%2Fwww.biomedtown.org&__ac_name=testuser2&__ac_password=testuser&submit.x=3&submit.y=11]]></body>
+     <add_header>Content-Type: application/x-www-form-urlencoded
+</add_header>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/City_Hall/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/City_Hall/Info_desk/</url>
+  </case>
+</testcases>

@@ -1,0 +1,17 @@
+
+<PylotTestConfig>
+	<TestCaseConfig>
+		<TestCaseParameter Name="NUM_AGENTS" Directive="-a" Value="5" />
+		<TestCaseParameter Name="DURATION" Directive="-d" Value="60"  />
+		<TestCaseParameter Name="INTERVAL" Directive="-i" Value="5" />		
+		<TestCaseParameter Name="PORT" Directive="-p" Value="" />
+	</TestCaseConfig>
+	
+	<TestResultConfig>		
+		<TestResultParameter Name="throughput_avg" Type="LowerBound" Title="Average Troughput (requests/second)" Value="1.5" />
+        <TestResultParameter Name="response_max" Type="UpperBound" Title="Max Response Time (sec)" Value="10" />
+		<TestResultParameter Name="throughput_min" Type="LowerBound" Title="Min Troughput (requests/second)" Value="1.0" />		
+		<TestResultParameter Name="response_avg" Type="UpperBound" Title="Average Response Time (sec)" Value="8" />		
+	</TestResultConfig>
+
+</PylotTestConfig>

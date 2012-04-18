@@ -1,0 +1,29 @@
+<testcases>
+  <case>
+    <url>http://www.biomedtown.org/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/City_Hall/Info_desk/docwiki/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/City_Hall/Info_desk/docwiki/AboutThisDocumentation</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/City_Hall/Info_desk/docwiki/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/City_Hall/Info_desk/docwiki/BrowserSettings</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/City_Hall/Info_desk/docwiki/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/City_Hall/Info_desk/docwiki/HowCanIGetMyOwnBuilding</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/City_Hall/Info_desk/docwiki/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/City_Hall/Info_desk/docwiki/SearchForOtherCitizens</url>
+  </case>
+</testcases>

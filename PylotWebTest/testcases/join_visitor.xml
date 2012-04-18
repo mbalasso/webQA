@@ -1,0 +1,18 @@
+<testcases>
+  <case>
+    <url>http://www.biomedtown.org/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/City_Hall/Info_desk/docwiki/HowCanIJoinTheCommunity</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/join_form</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/join_form</url>
+    <method>POST</method>
+    <body><![CDATA[bt_application=Visitor&form.button.Submit=Submit&form.submitted=1]]></body>
+    <add_header>Content-Type: application/x-www-form-urlencoded
+</add_header>
+  </case>
+</testcases>

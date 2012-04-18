@@ -1,0 +1,8 @@
+<testcases>
+  <case>
+    <url>http://www.biomedtown.org/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/news</url>
+  </case>
+</testcases>

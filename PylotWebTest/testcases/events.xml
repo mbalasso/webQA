@@ -1,0 +1,13 @@
+<testcases>
+  <case>
+    <url>http://www.biomedtown.org/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/events</url>
+  </case>
+  <case>
+	<url>http://www.biomedtown.org/events/month</url>
+	<method>GET</method>
+	<body><![CDATA[currentDate=2010%2F05%2F10&xmy=0&xsub=Appointment%2CConvention%2CMeeting%2CPresentations%2CSTEP%2CVPH%2CVPHNoE%2CVPHOP%2CVPH_News%2CWork%2CeHealth&jumpyear=2000&jumpmonth=5&jumpday=10]]></body>	
+  </case>  
+</testcases>

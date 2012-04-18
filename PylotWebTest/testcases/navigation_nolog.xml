@@ -1,0 +1,17 @@
+<testcases>
+  <case>
+    <url>http://www.biomedtown.org/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/vphop/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/vphop/reception/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/biomed_town/vphop/reception/news/</url>
+  </case>
+</testcases>

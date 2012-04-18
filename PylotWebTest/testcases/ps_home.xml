@@ -1,0 +1,21 @@
+<testcases>
+  <case>
+    <url>http://www.physiomespace.com/</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/login_form</url>
+    <method>POST</method>
+    <body><![CDATA[form.submitted=1&js_enabled=1&cookies_enabled=1&login_name=testuser&pwd_empty=0&came_from=http%3A%2F%2Fwww.biomedtown.org&__ac_name=testuser&__ac_password=testuser&submit.x=3&submit.y=11]]></body>
+    <add_header>Content-Type: application/x-www-form-urlencoded
+	</add_header>
+  </case>
+  <case>
+    <url>https://www.biomedtown.org/biomed_town/LHDL/users/repository/access/</url>
+  </case>
+  <case>
+    <url>https://www.biomedtown.org/biomed_town/LHDL/users/repository/lhprepository2/ps_home</url>
+  </case>
+  <case>
+    <url>http://www.biomedtown.org/logout</url>
+  </case>  
+</testcases>

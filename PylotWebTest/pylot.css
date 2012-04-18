@@ -1,0 +1,152 @@
+body {
+font-family:"Lucida Grande","Lucida Sans Unicode",sans-serif;
+font-size:12px;
+font-size-adjust:none;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:normal;
+}
+
+#wrapper-container{
+	background:#AAAAAA;
+	border:1px solid #AAAAAA;
+	padding:5px;
+	margin:0 auto;
+	text-align:left;
+	margin-left:25px;
+	margin-right:25px;
+}
+
+#container {
+	background:#FFFFFF;
+	margin:0 auto;
+	text-align:left;	
+	border:1px solid #AAAAAA;
+	margin:5px;
+	padding-top:15px;	
+}
+
+#header{	
+	margin-left:25px;
+	margin-bottom:10px;
+	background-color:DarkOrange;		
+	padding:10px;		
+    margin-right:25px;
+    min-height:72px;
+    
+}
+
+#header h1{
+	position:relative;
+	min-height:50px;
+	max-height:50px;		
+	min-width:90px;
+	left:-26px;	
+	background: white;
+	padding-left:8px;
+	top:-7px;	
+	border:1px solid RoyalBlue;	
+} 
+
+#header h2{
+	position:relative;	
+	top:-12px;
+	font-size:24pt;
+	color:white;	
+	font-family:Verdana;		
+}
+
+.testDate{
+	margin-left:25px;
+	margin-bottom:10px;	
+	padding:10px;		
+    margin-right:25px;
+    font-size:16px;		
+	font-weight: bold;
+    
+}
+
+.odd{background-color:#FFFFFF;}
+.even{background-color:#E1E5E2;}
+
+.left {float:left;}
+.clear {clear:both;}
+
+.testResults{
+	padding:15px;
+	background-color: #FFFFFF;	
+}
+
+#listing{
+	border:none;
+	width:100%;	
+}
+#listing tr{
+	border-top:1px solid RoyalBlue;
+	border-bottom:1px solid RoyalBlue;
+}
+#listing th{
+	padding:4px 2px 4px 10px;
+	border:1px solid RoyalBlue;
+	font-size:16px;
+	background-color: RoyalBlue;
+	color:white;
+}
+#listing td{
+	padding:4px 2px 4px 10px;
+	border:1px solid RoyalBlue;
+	text-align: center;
+}
+
+
+.odd{background-color:#FFFFFF;}
+.even{background-color:#E1E5E2;}
+.red{background-color:DarkOrange;}
+.green{background-color:MintCream;}
+
+.testSummary{
+	margin-left:25px;
+	margin-top:10px;
+	margin-right:25px;
+	margin-bottom:10px;
+	padding:10px;
+	border:1px solid RoyalBlue;
+}
+
+
+.testSummary h4{	
+	margin:5px;
+	margin-left:10px;
+	font-size:16px;	
+	font-weight: bold;
+	color:RoyalBlue;
+	
+}
+.testSummary td{	
+	padding:4px 4px 4px 15px;	
+	text-align: left;	
+    
+}
+
+
+.testSummary th{
+	text-align: left;
+	padding:4px;
+	padding-left:20px;		
+}
+
+.testTitle{
+	font-size:16px;	
+	font-weight: bold;
+}
+
+.activea{
+	cursor:pointer;
+	border: 0px;
+    text-decoration:none; 
+}
+.activea img{
+	cursor:pointer;
+	border: 0px;
+}
