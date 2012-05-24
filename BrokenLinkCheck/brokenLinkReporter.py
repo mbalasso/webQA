@@ -61,7 +61,8 @@ blacklist = ['?None&month:int=', '?currentDate=', '/RSS', '/image/', 'mail_passw
 
 if __name__ == "__main__":
 
-    f = open("bt_broken_link_check.xml",'r')    
+    #f = open("bt_broken_link_check.xml",'r')    
+    f = open("linkchecker-out.xml","r")
 
     broken_links = {}
     
