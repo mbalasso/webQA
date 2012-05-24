@@ -232,7 +232,7 @@ if __name__ == "__main__":
     now = datetime.datetime.now()
     timestamp = "%s-%s-%s-%s" % ( now.year, now.month, now.day, now.toordinal() ) 
     
-    for file_to_publish in ['checklink_building.html','checklink_output.html']:
+    for file_to_publish in []:#['checklink_building.html','checklink_output.html']:
     
         url = bt_url + "/biomed_town/City_Hall/Planning/broken_links/createObject?type_name=File"
         req = urllib2.Request(url)
